@@ -79,7 +79,7 @@ display: inline-block;
   firebase.initializeApp(config);
 </script>
 <script type="text/javascript">
-    
+var ref = firebase.app().database().ref();
 $(document).ready(function() {
     $.ajax({
         type: "GET",
